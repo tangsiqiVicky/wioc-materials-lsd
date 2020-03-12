@@ -28,7 +28,6 @@ border: solid angle radius none
 :::demo
 ``` html
 <template>
-  <div class="con">
 	<i>Echarts  柱形图类型1</i>
     <chart-bar-one ></chart-bar-one>
     <i>Echarts 柱形图类型2</i>
@@ -49,8 +48,6 @@ border: solid angle radius none
     <chart-bar-nine></chart-bar-nine>
     <i>Echarts 柱状图类型10</i>
     <chart-bar-ten></chart-bar-ten>
-  </div>
-
 </template>
 <style lang="css">
 
