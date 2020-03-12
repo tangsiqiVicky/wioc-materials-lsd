@@ -22,7 +22,6 @@ npm run dev
 
 
 
-
 #上传组件包
 
 ```bash
