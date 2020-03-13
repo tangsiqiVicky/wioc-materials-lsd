@@ -1,0 +1,78 @@
+
+.pop-table1[data-v-ce681426] {
+  table-layout: fixed;
+  width: 100%;
+}
+.pop-table1 thead th[data-v-ce681426] {
+  background: #096070;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #fff;
+  line-height: 1.2rem;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pop-table1 tbody tr td[data-v-ce681426] {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.2rem;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pop-table1 tbody tr td.red[data-v-ce681426] {
+  color: #d65252;
+}
+.pop-table1 tbody tr td.green[data-v-ce681426] {
+  color: #33dd7f;
+}
+.pop-table1 tbody tr td.orange[data-v-ce681426] {
+  color: #df7926;
+}
+.pop-table1 tbody tr.is-even[data-v-ce681426]:nth-child(even) {
+  background: rgba(11, 126, 139, 0.2);
+}
+.pop-table1 tbody tr.is-odd[data-v-ce681426]:nth-child(odd) {
+  background: rgba(11, 126, 139, 0.2);
+}
+.cbs-fade[data-v-ce681426] {
+  -webkit-animation: cbsFade-data-v-ce681426 0.3s linear;
+          animation: cbsFade-data-v-ce681426 0.3s linear;
+}
+.hide[data-v-ce681426] {
+  display: none;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+.show[data-v-ce681426] {
+  display: block;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+@-webkit-keyframes cbsFade-data-v-ce681426 {
+0% {
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+}
+100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+@keyframes cbsFade-data-v-ce681426 {
+0% {
+    opacity: 0;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+}
+100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}

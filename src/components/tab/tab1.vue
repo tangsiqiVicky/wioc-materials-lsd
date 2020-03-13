@@ -145,7 +145,7 @@
             li {
                 width: 14.71875rem;
                 height: 2.625rem;
-                /*background-image: url("./img/matter-tab.png");*/
+                background-image: url("./img/matter-tab.png");
                 text-align: center;
                 line-height: 2.625rem;
                 color: #61cfca;
@@ -182,7 +182,7 @@
                     &:before{
                         width: 11.1875rem;
                         height: 3.46875rem;
-                        /*background-image: url(./img/top-tab.png);*/
+                        background-image: url(./img/top-tab.png);
                         background-repeat: no-repeat;
                         z-index:-1;
                         border-top-left-radius:inherit;
@@ -213,6 +213,7 @@
                 width:19.625rem;
                 height: 4.03rem;
                 box-sizing: border-box;
+                background-image: url(./img/hkwmb-time-subindex.png);
                 text-align: center;
                 font-weight:bold;
                 color: #feff8a;
@@ -221,6 +222,7 @@
                     &:before{
                         width: 19.625rem;
                         height: 4.03rem;
+                        background-image: url(./img/hkwmb-time-subindex-active.png);
                         background-repeat: no-repeat;
                         z-index:-1;
                         border-top-left-radius:inherit;

@@ -96,6 +96,7 @@
         margin: 0rem auto;
         width: 25rem;
         height: 15rem;
+        background: url(./img/pop-bc.png) no-repeat;
         background-size: 100%;
         overflow: hidden;
     .column {

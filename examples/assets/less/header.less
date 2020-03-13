@@ -4,10 +4,28 @@
 .header-model{
   height: 40px;
   line-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0;
   .info{
-    display: inline-block;
     font-size: 14px;
-    color: #333;
     font-weight: normal;
+    img{
+      width: 25px;
+      height: 25px;
+      vertical-align: middle;
+    }
+  }
+  .color-list{
+    .color-item{
+      display:inline-block;
+      width:20px;
+      height:20px;
+      vertical-align: middle;
+      border:1px solid #dcdfe6;
+      border-radius: 0.02rem;
+      margin-right: 0.01rem;
+    }
   }
 }

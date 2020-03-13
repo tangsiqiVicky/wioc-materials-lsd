@@ -11,6 +11,9 @@ import Com from './docs/com.md' //复合图
 import Radar from './docs/radar.md' //雷达图
 import Words from './docs/words.md' //词云图
 import Canvas1 from './docs/canvas1.md' //动画
+import Canvas2 from './docs/canvas2.md' //动画
+import Canvas3 from './docs/canvas3.md' //动画
+import Canvas4 from './docs/canvas4.md' //动画
 import List1 from './docs/list1.md'//列表
 import Popup1 from './docs/Popup1.md'//弹出框
 import Table1 from './docs/Table1.md'//表格
@@ -88,6 +91,21 @@ const routes = [
         path: '/canvas1',
         name: 'canvas1',
         component: Canvas1
+    },
+    {
+        path: '/canvas2',
+        name: 'canvas2',
+        component: Canvas2
+    },
+    {
+        path: '/canvas3',
+        name: 'canvas3',
+        component: Canvas3
+    },
+    {
+        path: '/canvas4',
+        name: 'canvas4',
+        component: Canvas4
     },
     {
         path: '/list1',

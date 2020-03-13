@@ -1,0 +1,51 @@
+
+.Popup[data-v-ea37c762] {
+  display: none;
+  width: 25rem;
+  height: 22rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  position: fixed;
+  z-index: 5999;
+  min-width: 10rem;
+  min-height: 10rem;
+  padding: 1rem;
+  -webkit-box-shadow: 0 0 20px #333 inset;
+  box-shadow: 0 0 20px #333 inset;
+  overflow: hidden;
+}
+.Popup .close[data-v-ea37c762] {
+  z-index: 50;
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.Popup.no-close > .close[data-v-ea37c762] {
+  display: none;
+}
+.Popup .popbc[data-v-ea37c762] {
+  margin: 0rem auto;
+  width: 25rem;
+  height: 15rem;
+  background: url(/static/img/pop-bc.5699656.png) no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+.Popup .popbc .column[data-v-ea37c762] {
+  z-index: 40;
+  height: 4rem;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  margin: 5.5rem 0rem;
+}
+.Popup .popbc.no-close > .close[data-v-ea37c762] {
+  display: none;
+}

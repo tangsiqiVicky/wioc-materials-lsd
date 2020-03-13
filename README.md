@@ -34,7 +34,6 @@ npm login
 # 第三步 上传 需要更新package.json version版本号
 npm publish
 
-
 ```
 
 

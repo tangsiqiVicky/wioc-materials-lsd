@@ -12,15 +12,15 @@
             <slot name="highlight"></slot>
         </div>
         <div
-                class="demo-block-control"
-                ref="control"
-                @click="isExpanded = !isExpanded">
-            <transition name="arrow-slide">
-                <i :class="[iconClass, { 'hovering': hovering }]"></i>
-            </transition>
-            <transition name="text-slide">
-                <span v-show="hovering">{{ controlText }}</span>
-            </transition>
+            class="demo-block-control"
+            ref="control"
+            @click="isExpanded = !isExpanded">
+        <transition name="arrow-slide">
+            <i :class="[iconClass, { 'hovering': hovering }]"></i>
+        </transition>
+        <transition name="text-slide">
+            <span v-show="hovering">{{ controlText }}</span>
+        </transition>
         </div>
     </div>
 </template>

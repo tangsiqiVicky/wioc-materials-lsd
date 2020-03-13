@@ -2,9 +2,9 @@
 
 本节将介绍如何在项目中使用组件库。
 
-### 引入 JyRequiredImport
+### 引入 wiocMaterialsUi
 
-你可以引入整个 JyRequiredImport，或是根据需要仅引入部分组件。
+你可以引入整个 wiocMaterialsUi，或是根据需要仅引入部分组件。
 
 #### 完整引入
 
@@ -12,11 +12,11 @@
 
 ```javascript
 import Vue from 'vue';
-import wioc from 'wioc-materials-h5';
-import 'wioc-materials-h5/lib/theme/index.css';
+import wiocMaterialsUi from 'wioc-materials-lsd';
+import 'wioc-materials-lsd/lib/theme/index.css';
 import App from './App.vue';
 
-Vue.use(JyRequiredImport);
+Vue.use(wiocMaterialsUi);
 
 new Vue({
   el: '#app',
@@ -34,7 +34,7 @@ new Vue({
 首先，安装 babel-plugin-component：
 
 ```bash
-npm install babel-plugin-component -D
+npm install wioc-materials-lsd -D
 ```
 
 然后，将 .babelrc 修改为：
@@ -46,7 +46,7 @@ npm install babel-plugin-component -D
     [
       "component",
       {
-        "libraryName": "wioc-materials-h5",
+        "libraryName": "wioc-materials-lsd",
         "styleLibraryName": "theme"
       }
     ]
@@ -58,7 +58,7 @@ npm install babel-plugin-component -D
 
 ```javascript
 import Vue from 'vue';
-import { Input } from 'wioc-materials-h5';
+import { Input } from 'wioc-materials-lsd';
 import App from './App.vue';
 
 Vue.component(Input.name, Input);

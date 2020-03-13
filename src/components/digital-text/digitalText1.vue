@@ -1,7 +1,22 @@
 <template  lang="html">
 <div>
-
+  <!--数字文字结合类型1-->
+  <wioc-card class="bevul" v-show="show" :typevalue="type" :title="title">
+    <ul class="js-jinri-huanjing">
+      <li>
+        <div class="v-icon-jinri-huanjing1 v-icon"></div>
+        <h4>
+          <ICountUp
+                  :endVal="parseInt(dagital)"
+                  @ready="onReady"
+          />
+        </h4>
+        <h4>{{text}}</h4>
+      </li>
+    </ul>
+  </wioc-card>
   <!--数字文字结合类型2-->
+  <wioc-card class="bevel"  v-show="notshow" :title="title" >
     <ul class="js-echarts-likes">
       <li>
         <h3 class="c3">
@@ -14,6 +29,7 @@
         <h4>{{text}}</h4>
       </li>
     </ul>
+  </wioc-card>
 </div>
 </template>
 
@@ -63,7 +79,35 @@ export default {
 </script>
 
 <style lang="less">//1rem=16px
-
+  .js-jinri-huanjing{
+    overflow: hidden;
+    padding: 5rem 1.25rem 0 2.5rem;
+  li{
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    width: 33.33%;
+    padding: 1.25rem 0.625rem 1.25rem 8.75rem;
+  .v-icon{
+    position: absolute;
+    top: 1.25rem;
+    left: 0.625rem;
+  }
+  h4{
+    font-size: 2.25rem;
+    font-weight: normal;
+    //color: #fff;
+    color: black;
+    line-height: 3.125rem;
+  }
+  }
+  }
+  .v-icon-jinri-huanjing1{
+    width: 7.125rem;
+    height: 7rem;
+    background: url("img/digital-text1/icon-jinri-huanjing1.png") no-repeat;
+    background-size: 6.5625rem 6.9375rem ;
+  }
   .js-echarts-likes{
     overflow: hidden;
     text-align: center;

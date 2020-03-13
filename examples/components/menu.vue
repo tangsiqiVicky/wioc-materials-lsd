@@ -42,7 +42,8 @@
             <el-submenu index="15">
                 <section slot="title">动态图</section>
                 <el-menu-item index="/canvas1">动态图1</el-menu-item>
-               
+                <el-menu-item index="/canvas2">动态图2</el-menu-item>
+                <el-menu-item index="/canvas3">动态图3</el-menu-item>
             </el-submenu>
             <el-submenu index="16">
                 <section slot="title">列表</section>

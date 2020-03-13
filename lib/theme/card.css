@@ -1,0 +1,163 @@
+
+.wioc-card {
+  position: relative;
+}
+.wioc-card.is-none-border {
+  border: none;
+}
+.wioc-card.is-solid-border {
+  border: 1px solid rgba(242, 242, 242, 0.5);
+}
+.wioc-card.is-radius-border {
+  border-radius: 0.1rem;
+}
+.wioc-card.is-insetshadow {
+  -webkit-box-shadow: 0 0 0.0256rem #e9e6e6 inset;
+          box-shadow: 0 0 0.0256rem #e9e6e6 inset;
+  -webkit-animation: cnAnm 0.3s linear;
+          animation: cnAnm 0.3s linear;
+}
+.wioc-card.is-shadow {
+  -webkit-box-shadow: 0 0 0.2rem #e9e6e6;
+          box-shadow: 0 0 0.2rem #e9e6e6;
+  -webkit-animation: cnAnm 0.3s linear;
+          animation: cnAnm 0.3s linear;
+}
+.wioc-card.is-onlyangle-border .lt,
+.wioc-card.is-onlyangle-border .lb,
+.wioc-card.is-onlyangle-border .rt,
+.wioc-card.is-onlyangle-border .rb {
+  display: block;
+  position: absolute;
+  border: solid 4px #57bcff;
+  width: 12px;
+  height: 12px;
+}
+.wioc-card.is-onlyangle-border .lt {
+  border-width: 4px 0 0 4px;
+  left: -4px;
+  top: -4px;
+}
+.wioc-card.is-onlyangle-border .lb {
+  border-width: 0 0 4px 4px;
+  left: -4px;
+  bottom: -4px;
+}
+.wioc-card.is-onlyangle-border .rt {
+  border-width: 4px 4px 0 0;
+  top: -4px;
+  right: -4px;
+}
+.wioc-card.is-onlyangle-border .rb {
+  border-width: 0 4px 4px 0;
+  right: -4px;
+  bottom: -4px;
+}
+.wioc-card.is-angle-border {
+  border: 1px solid rgba(242, 242, 242, 0.5);
+}
+.wioc-card.is-angle-border .lt,
+.wioc-card.is-angle-border .lb,
+.wioc-card.is-angle-border .rt,
+.wioc-card.is-angle-border .rb {
+  display: block;
+  position: absolute;
+  border: solid 4px #57bcff;
+  width: 12px;
+  height: 12px;
+}
+.wioc-card.is-angle-border .lt {
+  border-width: 4px 0 0 4px;
+  left: -4px;
+  top: -4px;
+}
+.wioc-card.is-angle-border .lb {
+  border-width: 0 0 4px 4px;
+  left: -4px;
+  bottom: -4px;
+}
+.wioc-card.is-angle-border .rt {
+  border-width: 4px 4px 0 0;
+  top: -4px;
+  right: -4px;
+}
+.wioc-card.is-angle-border .rb {
+  border-width: 0 4px 4px 0;
+  right: -4px;
+  bottom: -4px;
+}
+@-webkit-keyframes cnAnm {
+0% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+    opacity: 0;
+}
+70% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    opacity: 1;
+}
+100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+}
+}
+@keyframes cnAnm {
+0% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+    opacity: 0;
+}
+70% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    opacity: 1;
+}
+100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+}
+}
+.wioc-card .title {
+  line-height: 0.2rem;
+  padding: 0.1rem 0.1rem 0 0.1rem;
+}
+.wioc-card .title .before {
+  width: 0.25rem;
+  height: 0.273074rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+  background-color: #4fc3ff;
+  margin: 0 0.25rem 0 0;
+  vertical-align: sub;
+}
+.wioc-card .title .center {
+  margin: 0 auto;
+  text-align: center;
+}
+.wioc-card .title h3 {
+  display: inline-block;
+  margin: 0px;
+  font-size: 0.153604rem;
+  line-height: 0.153604rem;
+  font-weight: bold;
+  color: #595959;
+}
+.wioc-card .title .large {
+  font-size: 0.213339rem;
+}
+.wioc-card .title .middle {
+  font-size: 0.170671rem;
+}
+.wioc-card .title .small {
+  font-size: 0.136537rem;
+}
+.wioc-card .title strong {
+  font-weight: normal;
+}
+.wioc-card .content {
+  font-size: 0.136537rem;
+  padding: 0.15rem;
+}

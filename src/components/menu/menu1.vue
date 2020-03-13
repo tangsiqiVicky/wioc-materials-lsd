@@ -115,7 +115,7 @@ export default {
       top: 0;
         width: 1.175rem;
         height: 10rem;
-        /*background: url("./img/mid-top-menu-line.png") no-repeat center ;*/
+        background: url("./img/mid-top-menu-line.png") no-repeat center ;
         background-size: 1.1rem 10rem;
     }
     &:before{
@@ -130,7 +130,7 @@ export default {
         padding-top: 3.15rem;
       li{
           height: 3.15rem;
-          /*background: url("./img/mid-top-menu-bg.png") no-repeat center;*/
+          background: url("./img/mid-top-menu-bg.png") no-repeat center;
           background-size: 11.6rem 2.825rem;
           font-size: 1rem;
         color: #fff;
@@ -143,7 +143,7 @@ export default {
         transform: skewX(-14deg) scale(.75,.75);
         transition: all .5s;
         &.active{
-            /*background-image: url("./img/mid-top-menu-bgc.png");*/
+            background-image: url("./img/mid-top-menu-bgc.png");
             background-size: 11.6rem 2.825rem;
           margin: 0;
           cursor: default;

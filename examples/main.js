@@ -28,9 +28,9 @@ import './assets/less/index.less'
 /* 引入代码高亮样式 */
 
 import 'highlight.js/styles/color-brewer.css';
-import './assets/less/theme/00052f/index.less';
-import './assets/less/theme/e7e4f1/index.less';
-import './assets/less/theme/ffffff/index.less';
+import './assets/theme/00052f/index.less';
+import './assets/theme/e7e4f1/index.less';
+import './assets/theme/ffffff/index.less';
 // 引入路由
 import routes from './route'
 Vue.use(VueRouter)

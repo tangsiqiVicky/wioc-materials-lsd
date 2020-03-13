@@ -2,7 +2,8 @@ import {
     card1
 } from './components/card'
 import {
-    canvas1
+  canvas1,
+  canvas2
 } from './components/canvas'
 import {
     digitalText1
@@ -22,7 +23,6 @@ import  {
     chartBarLineTwo,
     chartBarLineThree,
     chartBarLineFour,
-    chartCom,
     chartLineOne,
     chartLineTwo,
     chartLineThree,
@@ -58,11 +58,12 @@ import {
 import iconSvg from './components/icon-svg'
 
 if (typeof window !== 'undefined' && window.Vue) {
-    window.Vue.use(install)
+  window.Vue.use(install)
 }
 function install (Vue) {
     Vue.component(card1.name, card1)
     Vue.component(canvas1.name, canvas1)
+    Vue.component(canvas2.name, canvas2)
     Vue.component(digitalText1.name, digitalText1)
     Vue.component(chartBarOne.name, chartBarOne)
     Vue.component(chartBarTwo.name, chartBarTwo)
@@ -78,11 +79,12 @@ function install (Vue) {
     Vue.component(chartBarLineTwo.name, chartBarLineTwo)
     Vue.component(chartBarLineThree.name, chartBarLineThree)
     Vue.component(chartBarLineFour.name, chartBarLineFour)
-    Vue.component(chartCom.name, chartCom)
     Vue.component(chartLineOne.name, chartLineOne)
     Vue.component(chartLineTwo.name, chartLineTwo)
     Vue.component(chartLineThree.name, chartLineThree)
     Vue.component(chartLinefour.name, chartLinefour)
+    Vue.component(chartPieOne.name, chartPieOne)
+    Vue.component(chartPieTwo.name, chartPieTwo)
     Vue.component(chartPercentageOne.name, chartPercentageOne)
     Vue.component(chartRadarOne.name, chartRadarOne)
     Vue.component(chartWordCloud.name, chartWordCloud)
@@ -99,8 +101,6 @@ export default {
     card1,
     canvas1,
     canvas2,
-    canvas3,
-    canvas4,
     digitalText1,
     chartBarOne,
     chartBarTwo,
@@ -116,11 +116,12 @@ export default {
     chartBarLineTwo,
     chartBarLineThree,
     chartBarLineFour,
-    chartCom,
     chartLineOne,
     chartLineTwo,
     chartLineThree,
     chartLinefour,
+    chartPieOne,
+    chartPieTwo,
     chartPercentageOne,
     chartRadarOne,
     chartWordCloud,
